@@ -1,0 +1,59 @@
+.myBG {
+  height: 100vh;
+  background: url("../asset/images/gambar01.jpg");
+  background-size: cover;
+}
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px rgb(79, 61, 61);
+  letter-spacing: 4px;
+}
+.title2 {
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px rgb(79, 61, 61);
+  letter-spacing: 4px;
+}
+.trending {
+  height: auto;
+  background: url("../asset/images/gambar01.jpg");
+  background-size: cover;
+}
+
+.gambar {
+  height: 400px;
+  background-color: rgb(130, 119, 119);
+  margin: 5px;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.images {
+  height: 300px;
+}
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.faq .accordion .accordion-button {
+  color: var(color);
+  font-weight: bold;
+  background-color: #ffff;
+  line-height: 1.5;
+}
+
+.faq .accordion .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
